@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.orma.amazonapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.orma.amazonapp.MainActivity"
+        android:id="@+id/relMain">
+
+        <WebView
+            android:id="@+id/web_view_amazon"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:minHeight="2dip"
+            android:maxHeight="2dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            style="@android:style/Widget.ProgressBar.Horizontal" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/myFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/toolbar"
+            app:layout_anchorGravity="bottom|right|end"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/colorPrimary"
+            app:borderWidth="0dp"
+            android:onClick="addProduct"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

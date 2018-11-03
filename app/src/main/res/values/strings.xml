@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AmazonApp</string>
+    <string name="amazon">Amazon</string>
+    <string name="prodotti_tracciati">Prodotti tracciati</string>
+    <string name="offerte">Offerte</string>
+    <string name="open_drawer">Apri drawer</string>
+    <string name="close_drawer">Chiudi drawer</string>
+    <string name="di">Di %1$s</string>
+    <string name="prezzo_iniziale">Prezzo iniziale: %1$s</string>
+    <string name="prezzo_calato">%1$s ora costa meno</string>
+    <string name="prodotto_aggiunto">Prodotto aggiunto alla tua lista</string>
+    <string name="prodotto_presente">Prodotto già presente nella tua lista</string>
+    <string name="add_cart">Aggiungi al carrello</string>
+</resources>
